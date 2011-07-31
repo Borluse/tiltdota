@@ -34,7 +34,7 @@
 }
 
 -(id)init{
-    if ((self = [super initWithColor:ccc4(255, 255, 255, 255)])){
+    if ((self = [super initWithColor:ccc4(255, 0, 255, 255)])){
         
         [self build];
     }

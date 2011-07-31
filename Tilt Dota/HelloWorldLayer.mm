@@ -212,6 +212,7 @@ enum {
 	}
 }
 
+
 - (void)ccTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
 	//Add a new body/atlas sprite at the touched location

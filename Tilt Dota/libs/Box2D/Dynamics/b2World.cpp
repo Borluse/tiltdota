@@ -53,6 +53,7 @@ b2World::b2World(const b2Vec2& gravity, bool doSleep)
 	m_inv_dt0 = 0.0f;
 
 	m_contactManager.m_allocator = &m_blockAllocator;
+
 }
 
 b2World::~b2World()
